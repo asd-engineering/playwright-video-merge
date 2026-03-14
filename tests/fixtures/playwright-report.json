@@ -1,0 +1,81 @@
+{
+  "suites": [
+    {
+      "title": "tests/login.pw.ts",
+      "suites": [
+        {
+          "title": "Login Page",
+          "specs": [
+            {
+              "title": "should display login form",
+              "file": "tests/login.pw.ts",
+              "tests": [
+                {
+                  "id": "test-1",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "status": "passed",
+                      "duration": 1500,
+                      "attachments": [
+                        { "name": "video", "path": "test-results/should-display-login-form-chromium/video.webm" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "should handle invalid credentials",
+              "file": "tests/login.pw.ts",
+              "tests": [
+                {
+                  "id": "test-2",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "status": "passed",
+                      "duration": 2000,
+                      "attachments": [
+                        { "name": "video", "path": "test-results/should-handle-invalid-credentials-chromium/video.webm" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests/dashboard.pw.ts",
+      "suites": [
+        {
+          "title": "Dashboard",
+          "specs": [
+            {
+              "title": "should load widgets",
+              "file": "tests/dashboard.pw.ts",
+              "tests": [
+                {
+                  "id": "test-3",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "status": "passed",
+                      "duration": 3000,
+                      "attachments": [
+                        { "name": "video", "path": "test-results/should-load-widgets-chromium/video.webm" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
